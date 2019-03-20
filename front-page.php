@@ -34,7 +34,7 @@ get_header();
 	<?php
 		$args = array( 'post_type' => 'post',
 					   'category_name' => 'nouvelle',
-					   'posts_per_page' => 4);
+					   'posts_per_page' => 5);
 
 		$query = new WP_Query ( $args );
 	
@@ -60,7 +60,7 @@ get_header();
 <?php
 		$args = array( 'post_type' => 'post',
 					   'category_name' => 'evenement',
-					   'posts_per_page' => 4
+					   'posts_per_page' => 5
 					);
 
 		$query = new WP_Query ( $args );
