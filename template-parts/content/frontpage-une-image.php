@@ -16,7 +16,7 @@
 			$image = get_field('mon_image');
 			$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
 			if( $image ) {
-				echo '<a href="' . the_permalink() . '">' . wp_get_attachment_image( $image, $size ) . '</a>';
+				echo '<a href="' . get_permalink() . '">' . wp_get_attachment_image( $image, $size ) . '</a>';
 			}
 		?>
 		<figcaption>

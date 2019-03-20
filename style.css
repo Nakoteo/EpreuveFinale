@@ -951,4 +951,9 @@ body.page .main-navigation {
   -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
           animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
 }
+
+.attachment-full {
+  -webkit-box-shadow: 4px 4px 10px black;
+          box-shadow: 4px 4px 10px black;
+}
 /*# sourceMappingURL=style.css.map */
