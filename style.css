@@ -791,6 +791,10 @@ body.page .main-navigation {
   font-size: 20px;
 }
 
+.attachment-thumbnail {
+  border: 2px solid black;
+}
+
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
