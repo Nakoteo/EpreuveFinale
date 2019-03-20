@@ -792,7 +792,7 @@ body.page .main-navigation {
 }
 
 .attachment-thumbnail {
-  border: 2px solid black;
+  border: 5px solid #359ce0;
 }
 
 @-webkit-keyframes anim1 {
